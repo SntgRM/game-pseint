@@ -37,18 +37,14 @@ Algoritmo Mama_Dino_Rescue
     dino[13] = "                +=*  =*+*+                   +*++++   =+="
     dino[14] = "               *=+*  =*+                             +++-"
 
-
-    
-	// Definición del huevo
-	Dimension huevo[8]
-	huevo[1] = "       ===="
-	huevo[2] = "     +=-----="
-	huevo[3] = "    +=---::--="
-	huevo[4] = "   ++=---:::--="
-	huevo[5] = "   ++=---:::--="
-	huevo[6] = "   ++==--:::--+"
-	huevo[7] = "   *++==-----=+"
-	huevo[8] = "     **++=+++*"
+    // Definición del huevo
+    Dimension huevo[6]
+    huevo[1] = "    ===="
+    huevo[2] = "  +=-----="
+    huevo[3] = " +=---::--="
+    huevo[4] = "++=---:::--="
+    huevo[5] = "*++==-----=+"
+    huevo[6] = "  **++=+++*"
 
 	Dimension meteoro[18]
 	meteoro[1] = "             :::+*-.."
