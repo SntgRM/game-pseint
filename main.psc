@@ -203,10 +203,8 @@ Mientras Verdadero Hacer
         Imprimir "****************************************************************************************************************"
 		
         // Seleccionar una pregunta al azar
-        numeroAleatorio = Azar(5) + 1
-        // Validar que el índice esté en el rango correcto
-        Si numeroAleatorio < 1 O numeroAleatorio > 5 Entonces
-            // Ajustar al primer índice como valor de respaldo
+        numeroAleatorio = Azar(10) + 1
+        Si numeroAleatorio < 1 O numeroAleatorio > 10 Entonces
             numeroAleatorio = 1
         FinSi
         
