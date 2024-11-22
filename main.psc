@@ -1,7 +1,17 @@
-Algoritmo Mama_Dino_Rescue
+Algoritmo Mama_Dino_s_Rescue
     Definir i, j, respuestaCorrecta, respuestaUsuario Como Entero
     Definir posicionDino, anchoPantalla, numeroAleatorio Como Entero
     Definir pregunta Como Cadena
+    Definir nIniciales, n Como Entero
+    Definir posicionMeteoro Como Entero
+	
+    // Definiciones de las inicializaciones
+    posicionMeteoro = 1
+    anchoPantalla = 220
+    posicionDino = 1
+    posicionHuevo = anchoPantalla - 30
+    nIniciales = 3
+    n = nIniciales
     
     // Mostrar mensaje de bienvenida
     Limpiar Pantalla
@@ -16,9 +26,6 @@ Algoritmo Mama_Dino_Rescue
     Imprimir "*            PRESIONA ALGUNA TECLA PARA EMPEZAR A JUGAR            *"
     Imprimir "********************************************************************"
     Esperar Tecla
-	
-    anchoPantalla = 220
-    posicion_dino = 1
     
     // Definición del dinosaurio
     Dimension dino[14]
