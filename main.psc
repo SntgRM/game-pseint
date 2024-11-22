@@ -252,16 +252,18 @@ Mientras Verdadero Hacer
                 posicionMeteoro = 0
             FinSi
         Sino
-            // Retroceder la posición del dinosaurio, asegurándonos que no retroceda más allá de la posición 1
-            Si posicionDino - 10 >= 1 Entonces
-                // Retroceder la posición del dinosaurio
-                posicionDino = posicionDino - 15  
+            // Decrementar el número de intentos solo cuando la respuesta es incorrecta
+            n = n - 1
+            
+            // Retroceder la posición del dinosaurio
+            Si posicionDino - 30 >= 1 Entonces
+                posicionDino = posicionDino - 30 
             Sino
-                // Limitar al mínimo (no puede retroceder más allá de la primera posición)
                 posicionDino = 1
             FinSi
-            Imprimir "Respuesta incorrecta, intenta de nuevo."
-            Esperar 1 Segundo
+            
+            Imprimir "RESPUESTA INCORRECTA, TE ALEJAS DEL HUEVO"
+            Esperar 2 Segundos
         FinSi
     FinMientras
 FinAlgoritmo
