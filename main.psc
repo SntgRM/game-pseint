@@ -153,18 +153,21 @@ Algoritmo Mama_Dino_Rescue
     respuestas[8] = 78
     respuestas[9] = 95
     respuestas[10] = 240
-    
-    // Ciclo principal del juego
-    Mientras Verdadero Hacer
+
+// Ciclo principal del juego
+Mientras Verdadero Hacer
         Limpiar Pantalla
+
+	// Mostrar el meteoro estático en la esquina superior derecha
+	Para i = 1 Hasta 9 Hacer
+            Para j = 1 Hasta anchoPantalla - 30 Hacer
+                Escribir Sin Saltar " "
+            FinPara
+            Imprimir meteoroSmall[i]
+        FinPara
         
-        // Espaciado superior
-        //Para i = 1 Hasta 5 Hacer
-        //    Escribir ""
-        //FinPara
-        
-        // Mostrar el dinosaurio moviéndose hacia la derecha
-        Para i = 1 Hasta 15 Hacer
+        // Mostrar el dinosaurio moviéndose hacia la derecha con espaciado inicial
+        Para i = 1 Hasta 14 Hacer
             Para j = 1 Hasta posicionDino Hacer
                 Escribir Sin Saltar " "
             FinPara
@@ -172,15 +175,14 @@ Algoritmo Mama_Dino_Rescue
         FinPara
         
         // Mostrar el huevo estático en el extremo derecho
-        Para i = 1 Hasta 8 Hacer
-            Para j = 1 Hasta anchoPantalla - 15 Hacer
+        Para i = 1 Hasta 6 Hacer
+            Para j = 1 Hasta posicionHuevo Hacer
                 Escribir Sin Saltar " "
             FinPara
             Imprimir huevo[i]
         FinPara
         
         // Mostrar el suelo
-        Escribir ""
         Para i = 1 Hasta anchoPantalla Hacer
             Escribir Sin Saltar "_"
         FinPara
@@ -196,7 +198,8 @@ Algoritmo Mama_Dino_Rescue
         Imprimir ""
         Imprimir "****************************************************************************************************************"
         Imprimir "*                     RESPONDE LAS PREGUNTAS Y AYUDA A MAMA DINO A RESCATAR SU HUEVO CAÍDO                     *"
-        Imprimir "*                                       ¡ANTES DE QUE EL METEORO CAIGA!                                        *"
+        Imprimir "*                                      ¡SIN DEJAR QUE EL METEORO CAIGA!                                        *"
+        Escribir "*                                            INTENTOS RESTANTES: ", n, "                                             *"
         Imprimir "****************************************************************************************************************"
 		
         // Seleccionar una pregunta al azar
