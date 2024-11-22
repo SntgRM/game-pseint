@@ -218,10 +218,11 @@ Mientras Verdadero Hacer
         Si respuestaUsuario = respuestaCorrecta Entonces
             // Avanzar la posición del dinosaurio
             posicionDino = posicionDino + 15
-            Escribir "Respuesta correcta, sigues adelante"
-            Esperar 1 Segundo
-            // Condicional para la vista de victoria si el dinosaurio llega el huevo
-            Si posicionDino > anchoPantalla - 30 Entonces
+            Escribir "RESPUESTA CORRECTA, SIGUES ADELANTE"
+            Esperar 2 Segundos
+            
+            // Condicional para la vista de victoria
+            Si posicionDino >= posicionHuevo - 50 Entonces
                 Limpiar Pantalla
                 Imprimir "       ______ ______ _      _____ _____ _____ _____          _____  ______  _____    _"
                 Imprimir " (_)  |  ____|  ____| |    |_   _/ ____|_   _|  __ \   /\   |  __ \|  ____|/ ____|  | |"
@@ -229,12 +230,19 @@ Mientras Verdadero Hacer
                 Imprimir " | |  |  __| |  __| | |      | || |      | | | |  | |/ /\ \ | |  | |  __|  \___ \   | |"
                 Imprimir " | |  | |    | |____| |____ _| || |____ _| |_| |__| / ____ \| |__| | |____ ____) |  |_|"
                 Imprimir " |_|  |_|    |______|______|_____\_____|_____|_____/_/    \_\_____/|______|_____/   ( )"
+                Imprimir "      ___   _   _ __   ___   ___ _____ ___   ___ _      _  _ _   _ _____   _____"
+                Imprimir "     / __| /_\ | |\ \ / /_\ / __|_   _| __| | __| |    | || | | | | __\ \ / / _ \"
+                Imprimir "     \__ \/ _ \| |_\ V / _ \\__ \ | | | _|  | _|| |__  | __ | |_| | _| \ V / (_) |"
+                Imprimir "     |___/_/ \_\____\_/_/ \_\___/ |_| |___| |___|____| |_||_|\___/|___| \_/ \___/"
                 Imprimir "***************************************************************************************"
                 Imprimir "*                    PRESIONA ALGUNA TECLA PARA REINICIAR EL JUEGO                    *"
                 Imprimir "***************************************************************************************"
+
                 Esperar Tecla
-                // Reiniciar la posición del dinosaurio
+
                 posicionDino = 1
+                n = nIniciales
+                posicionMeteoro = 0
             FinSi
         Sino
             // Retroceder la posición del dinosaurio, asegurándonos que no retroceda más allá de la posición 1
