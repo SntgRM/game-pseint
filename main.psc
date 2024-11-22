@@ -46,25 +46,34 @@ Algoritmo Mama_Dino_Rescue
     huevo[5] = "*++==-----=+"
     huevo[6] = "  **++=+++*"
 
-	Dimension meteoro[18]
-	meteoro[1] = "             :::+*-.."
-	meteoro[2] = "           ...-**+++."
-	meteoro[3] = "          ..-+*+**+=+*:."
-	meteoro[4] = "         .+*+++=====-=+*=..."
-	meteoro[5] = "      .. .-+*+====-----=+**:."
-	meteoro[6] = "     .:+=**+==-----::-==+**.."
-	meteoro[7] = "    ..:+**++==--:::::::--==*+."
-	meteoro[8] = "    .:++===------------::--=+*"
-	meteoro[9] = "    .:*===---=========--:---=+"
-	meteoro[10] = " .*+==--+==           -:-=+***"
-	meteoro[11] = "..+=---=+-             ---=+**"
-	meteoro[12] = "  .*==----              -=---=+"
-	meteoro[13] = " .+++=--=               ==--==*" 
-	meteoro[14] = "   :+=-==+             ==-==*+:"
-	meteoro[15] = "   .+=-=+==          ===-=+**:"
-	meteoro[16] = "    .=-=+==========++==-==**-."
-	meteoro[17] = "     :=-=+==========-==+*+-."
-	meteoro[18] = "      .==--======--=+**-:."
+    // Definicion del meteoro
+    Dimension meteoro[15]
+    meteoro[1] = "                                      **+=+*:." 
+    meteoro[2] = "                            .  +++=====-=+*=..."
+    meteoro[3] = "                      .. .-+*+====-----=+**:."
+    meteoro[4] = "                     .:+=**+==-----::-==+**.."
+    meteoro[5] = "                ..:+**++==--:::::::--==*+."
+    meteoro[6] = "            .:*===---=========--:---=+**-"
+    meteoro[7] = "            .*+==--+=        ====-:-=+***."
+    meteoro[8] = "          ..+=---=+           ===---=+***"
+    meteoro[9] = "         .*==----             ===---=+**"
+    meteoro[10] = "        .+++=--=              ==--==**+." 
+    meteoro[11] = "        :+=-==+              =-==*+:."
+    meteoro[12] = "        .+=-=+==           ===-=+**:"
+    meteoro[13] = "         .=-=+==========++==-==**-."
+    meteoro[14] = "             =+==========-==+*"
+	
+    // Definicion del meteoro V. Pequeño
+    Dimension meteoroSmall[9]
+    meteoroSmall[1] = "                 .:=+*:." 
+    meteoroSmall[2] = "          ..::====-=+*.."
+    meteoroSmall[3] = "   ...-+*+====++++++=+*:."
+    meteoroSmall[4] = "  .:+==--:: **+=+*:.:-=+.."
+    meteoroSmall[5] = "  .:+=**         *-==+**.."
+    meteoroSmall[6] = ":+**++=           ---==*+."
+    meteoroSmall[7] = " .:==---         --=+*+."
+    meteoroSmall[8] = "  -=====**-----***=-=+*"
+    meteoroSmall[9] = "   .==========-==+*=.."
     
     // Preguntas y respuestas
     Dimension preguntas[5]
