@@ -130,19 +130,29 @@ Algoritmo Mama_Dino_Rescue
     explosion[34] = "      -==+***###*###*######**+++==-=++***#***+*##**###**###**"
     
     // Preguntas y respuestas
-    Dimension preguntas[5]
-    preguntas[1] = "¿Cuánto es 3 + 2?"
-    preguntas[2] = "¿Cuánto es 5 - 1?"
-    preguntas[3] = "¿Cuánto es 4 + 3?"
-    preguntas[4] = "¿Cuánto es 7 - 2?"
-    preguntas[5] = "¿Cuánto es 6 + 1?"
-    
-    Dimension respuestas[5]
+    Dimension preguntas[10]
+    preguntas[1] = "¿CUÁNTO ES 3 + 2?"
+    preguntas[2] = "¿CUÁNTO ES 8 + 1?"
+    preguntas[3] = "¿CUÁNTO ES 4 + 3?"
+    preguntas[4] = "¿CUÁNTO ES 6 + 4?"
+    preguntas[5] = "¿CUÁNTO ES 7 + 5?"
+    preguntas[6] = "¿CUÁNTO ES 12 + 15?"
+    preguntas[7] = "¿CUÁNTO ES 23 + 19?"
+    preguntas[8] = "¿CUÁNTO ES 45 + 33?"
+    preguntas[9] = "¿CUÁNTO ES 67 + 28?"
+    preguntas[10] = "¿CUÁNTO ES 128 + 112?"
+	
+    Dimension respuestas[10]
     respuestas[1] = 5
-    respuestas[2] = 4
+    respuestas[2] = 9
     respuestas[3] = 7
-    respuestas[4] = 5
-    respuestas[5] = 7
+    respuestas[4] = 10
+    respuestas[5] = 12
+    respuestas[6] = 27
+    respuestas[7] = 42
+    respuestas[8] = 78
+    respuestas[9] = 95
+    respuestas[10] = 240
     
     // Ciclo principal del juego
     Mientras Verdadero Hacer
