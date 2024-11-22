@@ -37,6 +37,23 @@ Algoritmo Mama_Dino_Rescue
     dino[13] = "                +=*  =*+*+                   +*++++   =+="
     dino[14] = "               *=+*  =*+                             +++-"
 
+    // Definicion del dinosaurio invertido 
+    Dimension dinoReverse[14]
+    dinoReverse[1] = "                                           *+++ *+=- =*+="
+    dinoReverse[2] = "                         -+*=*          ++           ++"
+    dinoReverse[3] = "                     += ~   *+         =+=         ++*="
+    dinoReverse[4] = "                    *+  X    =+=     =+=        +++"
+    dinoReverse[5] = "                  ++         -=+    *+         ++"
+    dinoReverse[6] = "                 ~**++*+*=   ++=+*+++        =*="
+    dinoReverse[7] = "              =++=+++=-     -*++= =++*     ++"
+    dinoReverse[8] = "           =*+       :+=++=.     =++     ++"
+    dinoReverse[9] = "       -*+              ++  ++    =*+   +="
+    dinoReverse[10] = "    +*-                    +++      -+*+-"
+    dinoReverse[11] = "   =++       -+*+++*+*    ++      +*=*+="
+    dinoReverse[12] = " -*=     :+*+=            **:  +*  ==++*"
+    dinoReverse[13] = "==+=   +++++*+                 +*+*=  *+="
+    dinoReverse[14] = "-+++                             +*+=  *+="
+
     // Definición del huevo
     Dimension huevo[6]
     huevo[1] = "    ===="
