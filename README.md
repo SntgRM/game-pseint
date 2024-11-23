@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código fuente de un mini juego desarrollado en PSeint como parte de un trabajo freelance para un cliente universitario. El objetivo del proyecto era crear un juego simple que utilizara conceptos de algoritmia y estructuras de control en pseudocódigo, siguiendo los requerimientos de la asignatura del cliente.
 
-El juego se centra en un dinosaurio (Mama Dino) que debe responder preguntas de matemáticas simples para avanzar y rescatar su huevo caído antes de que un meteorito lo alcance.
+El juego se centra en un dinosaurio (Mama Dino) que debe responder preguntas de matemáticas simples para avanzar y rescatar su huevo caído sin equivocarse al contestar para evitar que un meteoro caiga y explote.
 
 ## Descripción del Proyecto
 
@@ -11,7 +11,7 @@ El juego se centra en un dinosaurio (Mama Dino) que debe responder preguntas de 
 ## Objetivos del Juego
 
 - Responder correctamente a las preguntas matemáticas para hacer avanzar al dinosaurio.
-- Evitar que el meteorito caiga y destruya el huevo de Mama Dino.
+- Evitar que el meteorito caiga y destruya todo.
 - Avanzar hasta el huevo para completar el juego.
 
 ## Características Principales
@@ -20,7 +20,6 @@ El juego se centra en un dinosaurio (Mama Dino) que debe responder preguntas de 
 - **Gráficos simples en consola**: El dinosaurio y el huevo son representados mediante arte ASCII que se mueve de acuerdo con las respuestas correctas.
 - **Preguntas aleatorias**: Las preguntas se seleccionan al azar de un conjunto de preguntas predefinidas.
 - **Lógica de avance y retroceso**: El dinosaurio avanza al responder correctamente, y retrocede si la respuesta es incorrecta.
-- **Pantalla de victoria**: El juego incluye una pantalla de victoria cuando el dinosaurio llega al huevo.
 
 ## Requisitos
 
@@ -42,14 +41,14 @@ El juego se centra en un dinosaurio (Mama Dino) que debe responder preguntas de 
 
 - El juego empieza mostrando el dinosaurio y el huevo en posiciones predeterminadas en la pantalla.
 - El jugador debe responder correctamente a preguntas matemáticas simples para hacer avanzar al dinosaurio.
-- Si el jugador responde incorrectamente, el dinosaurio retrocederá.
+- Si el jugador responde incorrectamente, el dinosaurio retrocederá y perderá uno de sus tres intentos.
 - Si el dinosaurio llega al huevo, el juego muestra una pantalla de victoria.
-- Si el meteorito cae (cuando el dinosaurio no avanza por mucho tiempo), el juego terminará y el jugador podrá reiniciar.
+- Si los intentos se acaban, el juego terminará y el jugador podrá ver una pequeña cinemática donde un meteoro cae y explota.
 
 ## Código Fuente
 
 El código está organizado de la siguiente manera:
 
-- **Arte ASCII** para representar al dinosaurio y el huevo.
+- **Arte ASCII** para representar el dinosaurio, el huevo, el meteoro y la explosión.
 - **Preguntas y respuestas** almacenadas en arreglos para ser seleccionadas aleatoriamente.
 - **Condicionales y bucles** que controlan la lógica del juego.
