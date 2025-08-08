@@ -1,54 +1,67 @@
-# Mama Dino's Rescue
+# 🦖 Mama Dino's Rescue
 
-Este repositorio contiene el código fuente de un mini juego desarrollado en PSeint como parte de un trabajo freelance para un cliente universitario. El objetivo del proyecto era crear un juego simple que utilizara conceptos de algoritmia y estructuras de control en pseudocódigo, siguiendo los requerimientos de la asignatura del cliente.
+This repository contains the source code for a **mini-game** developed in **PSeint** as part of a freelance project for a university client.  
+The goal was to create a simple game that demonstrates **basic algorithmic concepts** and **control structures** in pseudocode, following the course requirements.
 
-El juego se centra en un dinosaurio (Mama Dino) que debe responder preguntas de matemáticas simples para avanzar y rescatar su huevo caído sin equivocarse al contestar para evitar que un meteoro caiga y explote.
+The game follows **Mama Dino**, a dinosaur on a mission to rescue her fallen egg. To succeed, the player must **correctly answer math questions** to move forward — but beware! A wrong answer brings the meteor closer to destruction. 🌠💥
 
-## Descripción del Proyecto
+---
 
-**Mama Dino's Rescue** está desarrollado en PSeint y utiliza una serie de estructuras de control (condicionales, bucles) para gestionar la interacción con el usuario y el movimiento del dinosaurio. El jugador debe responder correctamente preguntas matemáticas para hacer que el dinosaurio avance y rescatar su huevo.
+## 📜 Project Description
 
-## Objetivos del Juego
+**Mama Dino's Rescue** is built entirely in **PSeint** using **conditional statements** and **loops** to handle user interaction and game logic.  
+The player advances through the game by answering math problems correctly, guiding Mama Dino to her egg before disaster strikes.
 
-- Responder correctamente a las preguntas matemáticas para hacer avanzar al dinosaurio.
-- Evitar que el meteorito caiga y destruya todo.
-- Avanzar hasta el huevo para completar el juego.
+---
 
-## Características Principales
+## 🎯 Game Objectives
 
-- **Interactividad con el usuario**: El jugador debe responder preguntas de matemáticas sencillas para mover al dinosaurio.
-- **Gráficos simples en consola**: El dinosaurio y el huevo son representados mediante arte ASCII que se mueve de acuerdo con las respuestas correctas.
-- **Preguntas aleatorias**: Las preguntas se seleccionan al azar de un conjunto de preguntas predefinidas.
-- **Lógica de avance y retroceso**: El dinosaurio avanza al responder correctamente, y retrocede si la respuesta es incorrecta.
+- ✅ **Answer math questions correctly** to help Mama Dino move forward.  
+- 🚫 **Avoid the meteor** from crashing down and destroying everything.  
+- 🥚 **Reach the egg** to complete the game.
 
-## Requisitos
+---
 
-- PSeint (versión recomendada 4.0 o superior).
-- Conocimientos básicos de pseudocódigo y estructuras de control (condicionales, bucles).
+## ✨ Main Features
 
-## Instrucciones para Ejecutar el Juego
+- 💬 **Interactive gameplay** – Player responds to simple math questions.  
+- 🎨 **ASCII-based graphics** – Mama Dino, the egg, and other elements are drawn directly in the console.  
+- 🔀 **Randomized questions** – Questions are randomly chosen from a predefined set.  
+- ↔ **Forward and backward logic** – Correct answers move the dinosaur forward, incorrect answers push her back.
 
-1. Clona este repositorio en tu máquina local:
+---
 
+## 🛠 Requirements
+
+- **PSeint** (recommended version: 4.0 or higher)  
+- Basic knowledge of pseudocode and control structures (conditionals, loops)
+
+---
+
+## ▶ How to Run the Game
+
+1. Clone this repository to your local machine:
     ```bash
     git clone https://github.com/SntgRM/game-pseint.git
     ```
 
-2. Abre el archivo `main.psc` con el entorno de PSeint.
-3. Ejecuta el código desde PSeint para comenzar a jugar.
+2. Open the `main.psc` file in **PSeint**.  
+3. Run the code from PSeint to start playing.
 
-## Funcionamiento del Juego
+---
 
-- El juego empieza mostrando el dinosaurio y el huevo en posiciones predeterminadas en la pantalla.
-- El jugador debe responder correctamente a preguntas matemáticas simples para hacer avanzar al dinosaurio.
-- Si el jugador responde incorrectamente, el dinosaurio retrocederá y perderá uno de sus tres intentos.
-- Si el dinosaurio llega al huevo, el juego muestra una pantalla de victoria.
-- Si los intentos se acaban, el juego terminará y el jugador podrá ver una pequeña cinemática donde un meteoro cae y explota.
+## 🎮 How It Works
 
-## Código Fuente
+- The game starts by displaying Mama Dino and the egg at fixed positions.  
+- The player must **answer math questions correctly** to advance.  
+- Wrong answers will make Mama Dino **step back** and lose one of three attempts.  
+- If Mama Dino reaches the egg 🥚 → **Victory!** 🎉  
+- If all attempts are lost → A meteor crashes 💥 and the game ends with a small cinematic.
 
-El código está organizado de la siguiente manera:
+---
 
-- **Arte ASCII** para representar el dinosaurio, el huevo, el meteoro y la explosión.
-- **Preguntas y respuestas** almacenadas en arreglos para ser seleccionadas aleatoriamente.
-- **Condicionales y bucles** que controlan la lógica del juego.
+## 📂 Source Code Structure
+
+- **ASCII Art** – Represents Mama Dino, the egg, the meteor, and the explosion.  
+- **Questions & Answers Arrays** – Predefined math problems selected randomly.  
+- **Conditionals & Loops** – Handle the game’s decision-making and progression.
